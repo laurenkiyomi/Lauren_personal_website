@@ -1,0 +1,141 @@
+* {
+    padding: 0cm;
+    margin: 0cm;
+    border-width: 0cm;
+}
+
+/*Navigation Bar*/
+.navigation{
+    background-color: #e76f51;
+    overflow: hidden;
+    display: flex;
+}
+
+.navigation button{
+    background-color: #e76f51;
+    color: white;
+    padding: 10px 32px;
+    font-size: 16px;
+}
+
+/*header*/
+.header {
+    background-color: #fefae0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 700px;
+    align-items: center;
+
+}
+
+.introduction {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+
+h1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 56px;
+    color: #264653;
+}
+
+.intro {
+    font-family: 'Fira Sans', sans-serif;
+    color: #264653;
+    font-size: 24px;
+}
+
+.portrait {
+    align-self: flex-end;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.linkedin {
+        background-color: #e76f51;
+        border-radius: 1cm;
+        color: white;
+        padding: 10px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+}
+
+img.portrait {
+    height: 564px;
+    width: 490px;
+
+}
+
+/*Biography*/
+.biography {
+    display: flex;
+    margin: 100px;
+    height: 500px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 56px;
+    color: #264653;
+    margin-right: 50px;
+}
+
+.bio {
+    font-family: 'Fira Sans', sans-serif;
+    color: #264653;
+    font-size: 24px;
+    width: 390px;
+}
+
+/*Portfolio*/
+.portfolio {
+    background-color: #fefae0;
+    padding: 20px;
+}
+
+h3 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 56px;
+    color: #264653;
+}
+
+.project-card {
+    background-color: #fefae0;
+    position: relative;
+    width:300px;
+    height:400px;
+    margin:25px;
+    float: left;
+}
+
+.project-card div {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: #fefae0;
+    color: #264653;
+    margin: 5px;
+    opacity: 0;
+    font-family: 'Fira Sans', sans-serif;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.project-card:hover {
+    cursor:pointer;
+}
+
+.project-card:hover div {
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7; 
+}
