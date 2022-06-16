@@ -19,7 +19,7 @@
 }
 
 /*header*/
-.header {
+#header {
     background-color: #fefae0;
     display: flex;
     justify-content: center;
@@ -73,7 +73,7 @@ img.portrait {
 }
 
 /*Biography*/
-.biography {
+#biography {
     display: flex;
     margin: 100px;
     height: 500px;
@@ -96,9 +96,13 @@ h2 {
 }
 
 /*Portfolio*/
-.portfolio {
+#portfolio {
+    display: grid;
     background-color: #fefae0;
     padding: 20px;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 h3 {
